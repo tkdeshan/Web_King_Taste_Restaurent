@@ -1,0 +1,287 @@
+body{
+	background-color:#990000;
+}
+
+/*for header*/
+div.navi{
+	background-color:black;
+	height:58px;
+    width:100%;	
+}	
+ul.nav{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	line-height:60px;
+}
+li.left{
+	float:left;
+	margin-left:50px;	
+	font-family:Comic Sans MS;
+}
+p.nav{
+	color:#cc9900;
+	font-size:25px;
+	letter-spacing:3px;
+	font-weight:bold;
+    margin:auto;
+}
+li.nav{
+	float:right;
+	margin-right:30px;
+	display:block;
+}
+a.nav{
+	text-decoration:none;
+	color:white;
+	font-size:20px;
+    padding:7px 10px;
+	border-radius:5px;
+}
+a.nav:hover{
+	background:#990000;	
+}
+.active{
+	background:#990000;
+	
+}	
+	
+
+/*for reservation page content*/
+.back{
+	margin-left:auto;
+	margin-right:auto;
+	width:60%;
+	padding:10px;
+	background-color:black;
+}
+h2{
+	color:#cc9900;
+	text-align:center;
+	font-family:Lucida Handwriting;
+}
+.back_form{
+	margin-left:auto;
+	margin-right:auto;
+	width:50%;
+	padding:10px;
+	background-color:#ccccff;
+}
+h3{
+	color:black;
+	text-align:center;
+	font-family:Georgia, Garamond;
+}
+form{
+	margin-left:auto;
+	margin-right:auto;
+	width:40%;
+}
+.g-recaptcha{
+	position:relative;
+	top:5px;
+	left:-70px;
+}
+#b_reset{
+	position:relative;
+	top:40px;
+	left:-30px;
+	padding:10px;
+	border-radius:8px;
+}
+#b_submit{
+	position:relative;
+	top:-18px;
+	left:40px;
+	padding:10px;
+	border-radius:8px;
+}
+#b_reset:hover{
+	background-color:gray;
+}
+#b_submit:hover{
+	background-color:gray;
+}
+
+/*for footer*/
+ul.foot{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	margin-left:340px;
+}
+li.foot{
+	float:left;
+	margin-left:30px;
+	display:block;
+}
+li.other{
+	float:right;
+	margin-right:370px;
+}
+img{
+	width:20px;
+	height:20px;
+}
+h3.foot{
+	text-align:center;
+	color:gray;
+}
+/*Home Page*/
+h1{
+	font-family: Courier;
+	font-size: 40px;
+	text-align: center;
+	color: #cc9900;
+}		
+div.home{
+	background-image:url(home.jpg);
+	background-size: 100% 100%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 600px;
+	width: 1000px;	
+}
+h3.find{
+	color: #cc9900;
+	font-size: 30px;
+	text-align: center;
+	font-family:Lucida Handwriting;
+}	
+#map{
+	background-image:url(map.png);
+	background-size: 100% 100%;
+	margin-left: 50px;
+	margin-right: 50px;
+	border: 2px solid;
+	height: 500px;
+	width: 1400px;
+	
+}
+/* About Page*/	
+div.br{
+	height: 400px;
+	width: 800px;	
+}	
+#about1{
+	color:#cc9900;
+	text-align: left;
+	margin-left: 350px;
+	font-family:Lucida Handwriting;
+	
+}
+p.brand{
+	font-family: Brush Script MT;
+	text-align: center;
+	font-size: 28px;
+	margin-left: 50px;
+}	
+#about2{
+	color:#cc9900;
+	text-align: right;
+	margin-right: 350px;
+	font-family:Lucida Handwriting;
+}
+p.team{
+	font-family: Brush Script MT;
+	text-align: center;
+	font-size: 30px;
+	margin-left: 645px;
+	
+}	
+div.imgk{
+	background-image:url(king.jpg);
+	background-size: 100% 100%;
+	border: 3px solid;
+	float: right;
+	margin-top: -400px;
+	margin-right: 215px;
+	height: 300px;
+	width: 400px;
+}	
+div.imgc{
+	background-image:url(cook.jpg);
+	background-size: 100% 100%;
+	border: 2px solid;
+	float: left;
+	margin-top: -300px;
+	margin-left: 180px;
+	height: 300px;
+	width: 400px;	
+}
+/*Contact Page*/	
+table{
+	text-align: center;
+	font-family: Lucida Handwriting;
+	font-size: 15px;
+	color: #cc9900;
+	width: 800px;
+	padding: 20px;
+}	
+h3.form{
+	color: #cc9900;
+	font-size: 20px;
+	text-align: center;
+	font-family: courier;
+}
+div.form2{
+	background-color: white;
+	border: 2px solid; 
+	margin-left: 390px;
+	padding: 10px;
+	height: 360px;
+	width: 700px;
+}	
+table.cont{
+	text-align: left;
+	font-family: georgia;
+	font-size: 13px;
+	color: black;
+	margin-left: auto;
+	margin-right: auto;	
+	
+}
+input.box{
+	font-family: verdana;
+	height: 35px;
+	width: 240px;
+}
+.submit{
+	background-color: #990000;
+	font-family: georgia;
+	color: white;
+	padding: 10px;
+	width: 100px;
+	border-radius: 15px;
+	margin-left: 270px;
+	cursor: pointer;
+}
+/*Menu Page*/
+h1.menu{
+	font-family: Lucida Handwriting;
+	font-size: 28px;
+	text-align: left;
+	color: #cc9900;
+	margin-left: 50px;
+}	
+div.gallery{
+	border: 2px solid black;
+	margin: 47px;
+	width: 400px;
+	display: inline-block;	
+}	
+div.gallery img{
+	width: 100%;
+	height: 300px;		
+}	
+div.gallery:hover{
+	border: 2px solid #cc9900;
+	
+}	
+div.descr{
+	padding: 15px;
+	text-align: center;
+	font-family: georgia;
+	font-size: 20px;
+	color: #cc9900;
+}	

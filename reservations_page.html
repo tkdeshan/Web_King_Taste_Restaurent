@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Reservations Page</title>
+		<link rel="stylesheet" type="text/css" href="Images/style.css">
+		<script src='https://www.google.com/recaptcha/api.js'></script>
+	</head>
+	<body>
+		   <header>
+			<div class="navi">
+				<ul class="nav">
+				    <li class="left"><p class="nav">KING TASTE RESTAURANT</p></li>
+					<li class="nav"><a class="nav" href="contact_page.html">Contact</a></li>
+					<li class="nav"><a class="nav active" href="reservations_page.html">Reservation</a></li>
+					<li class="nav"><a class="nav" href="menu_page.html">Menu</a></li>
+					<li class="nav"><a class="nav" href="about_page.html">About</a></li>
+					<li class="nav"><a class="nav" href="index.html">Home</a></li>
+				</ul>
+			</div>
+		</header><br>
+		
+		<div class="back">
+			<h2>BOOK YOUR TABLE NOW</h2>
+			<div class="back_form">
+				<h3>ONLINE BOOKING FORM</h3>
+				<form action="actinon_page">
+					<label for="fname">First name</label><br><br>
+					<input type="text" name="fname"><br><br>
+					
+					<label for="lname">Last name</label><br><br>
+					<input type="text" name="lname"><br><br>
+					
+					<label for="phone">Phone</label><br><br>
+                    <input type="tel" name="phone" required><br><br>
+					
+				    <label for="check_in">Check-in</label><br><br>
+					<input type="date" name="check_in" required><br><br>
+					
+					<label for="time">Time</label><br><br>
+                    <input type="time" name="time" required><br><br>
+					
+					<label for="guest">Guest</label><br><br>
+					<input type="number" name="guest" min="1" max="20" placeholder="Set"><br><br>
+					
+					<div class="g-recaptcha" data-sitekey="your_site_key"></div>
+					
+					
+					<input id="b_reset" type="reset" value="Clear"><br><br>
+					<input id="b_submit" type="submit" onclick="alert('Are you sure ?')" value="Proceed to Checkout">
+				</form>
+			</div>
+		</div>
+		
+		<footer>
+			<br><br><hr><br><br>
+			<ul class="foot">
+				<li class="foot">FOLLOW US ON FACEBBOK</li>
+				<li class="foot"><a href="www.facebook.com"><img src="Images/facebook.png" alt="fb"></a></li>
+				<li class="foot other">OPEN HOURS-DAILY 9 AM TO 11 PM</li>
+			</ul><br><br>
+			<h3 class="foot">@All Rights Reserved</h3>
+		</footer>
+	</body>
+</html>
