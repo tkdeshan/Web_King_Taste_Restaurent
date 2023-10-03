@@ -19,7 +19,7 @@ The website is live on : https://tkdeshan.github.io/Web_King_Taste_Restaurent/
 
 ## Installation
 
-1. Clone the repository: `https://github.com/tkdeshan/Web_King_Taste_Restaurent.git`
+1. Clone the repository: `git clone https://github.com/tkdeshan/Web_King_Taste_Restaurent.git`
 2. Navigate to the project directory: `cd Web_King_Taste_Restaurent`
 3. Open `index.html` in your web browser.
 
